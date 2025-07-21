@@ -12,6 +12,7 @@ It’s made for people who enjoy building things, breaking them apart, and learn
 ![License](https://badgen.net/badge/license/GNU-Public/green)
 
 <img width="870" height="168" alt="atomarchivebanner" src="https://github.com/user-attachments/assets/22ac22a5-6faf-4b50-b51f-df634adc7184" />
+
 The archive includes guides, notes, links, and learning materials. I use it for reference, and I hope others find it helpful too.
 
 If you have good resources to share, you can post them in the Discord server or add them directly to the website’s source code on GitHub.  
