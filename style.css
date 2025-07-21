@@ -141,7 +141,6 @@ a:hover {
 .toggle-header {
   cursor: pointer;
   user-select: none;
-  padding: 0px 0;
 }
 
 .toggle-header::before {
