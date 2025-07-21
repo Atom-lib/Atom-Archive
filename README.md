@@ -26,5 +26,3 @@ Everyone is welcome to help improve and update the site to make it easier for ot
 ## Visit the Site
 
 [**Atom Archive Website**](https://parven05.github.io/Atom/)
-
-Thanks for helping improve the archive!
