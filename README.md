@@ -2,20 +2,44 @@
 
 **Welcome to ATOM — Algorithms, Techniques, Optics, Mechanics**
 
-This is a personal and community collection of resources related to programming, graphics, physics, and math.  
-It’s made for people who enjoy building things, breaking them apart, and learning how they really work under the hood.
+A personal and community-driven archive of resources for programming, graphics, physics, and math.  
+This project is for people who enjoy building things from scratch, exploring how systems work under the hood, and sharing what they learn.
+
+---
 
 ![Status](https://badgen.net/badge/Status/Development/orange?icon=github)
-![Community](https://badgen.net/badge/Source/Community/blue)
+![Source](https://badgen.net/badge/Source/Community/blue)
 ![License](https://badgen.net/badge/license/GNU-Public/green)
+[![Discord](https://img.shields.io/discord/YOUR_DISCORD_ID?label=Join%20Discord&logo=discord&color=5865F2)](https://discord.gg/YOUR_DISCORD_INVITE)
 
-<img width="600" height="168" alt="atomarchivebanner" src="https://github.com/user-attachments/assets/22ac22a5-6faf-4b50-b51f-df634adc7184" />
+---
 
-The archive includes guides, notes, links, and learning materials. I use it for reference, and I hope others find it helpful too.
+<img width="600" height="168" alt="ATOM Archive Banner" src="https://github.com/user-attachments/assets/22ac22a5-6faf-4b50-b51f-df634adc7184" />
 
-If you have good resources to share, you can post them in the Discord server or add them directly to the website’s source code on GitHub.  
-Everyone is encouraged to help update and improve the site to make it easier to use for others in the future.
+---
 
-You can visit the website here: [Atom Archive](https://parven05.github.io/Atom/)
+### 🧠 About
 
-To contribute, fork this repo, add your changes, and open a pull request. Thanks!
+This archive includes guides, notes, links, and learning material that I personally use and keep for reference.  
+If you find it useful too — great! If you have good resources to share, feel free to:
+
+- Post them in the [Discord server](https://discord.gg/YDnXBnj9kh)
+- Or contribute directly to the source code on [GitHub](https://github.com/parven05/Atom)
+
+We welcome contributions and updates to make the site better and easier for everyone.
+
+---
+
+### 🌐 Visit the Site
+
+👉 [**Atom Archive Website**](https://parven05.github.io/Atom/)
+
+---
+
+### 🤝 How to Contribute
+
+1. Fork this repo  
+2. Add your resources or edits  
+3. Open a pull request
+
+Thanks for helping improve the archive!
