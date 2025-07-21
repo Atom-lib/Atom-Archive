@@ -9,7 +9,7 @@ It’s made for people who enjoy building things, breaking them apart, and learn
 ![Engine](https://badgen.net/badge/Engine/Community/blue)
 ![License](https://badgen.net/badge/license/GNU-Public/green)
 
-<img width="600" height="100" alt="atomarchivebanner" src="https://github.com/user-attachments/assets/22ac22a5-6faf-4b50-b51f-df634adc7184" />
+<img width="600" height="168" alt="atomarchivebanner" src="https://github.com/user-attachments/assets/22ac22a5-6faf-4b50-b51f-df634adc7184" />
 
 The archive includes guides, notes, links, and learning materials. I use it for reference, and I hope others find it helpful too.
 
