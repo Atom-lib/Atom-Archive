@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Atom Archive</title>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div class="card">
     <div class="icon-bar">
@@ -18,89 +20,165 @@
 
     <img src="./images/atomarchivebanner.png" width="500">
     <div class="intro">
-      This archive brings together valuable learning resources collected and shared by the community. Whether you're into programming, math, physics, or graphics, we hope these materials help you explore and deepen your understanding of the topics that inspire you.
+      This archive brings together valuable learning resources collected and shared by the community. Whether you're
+      into programming, math, physics, or graphics, we hope these materials help you explore and deepen your
+      understanding of the topics that inspire you.
     </div>
 
-    <h2 id="math-header" onclick="toggleSection('math')">Mathematics</h2>
-    <div id="math" class="content">
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab-button active blue" onclick="openTab(event, 'math', 'blue')">Mathematics</button>
+      <button class="tab-button green" onclick="openTab(event, 'physics', 'green')">Physics</button>
+      <button class="tab-button orange" onclick="openTab(event, 'graphics', 'orange')">Graphics</button>
+      <button class="tab-button red" onclick="openTab(event, 'programming', 'red')">C++ Programming</button>
+    </div>
+
+    <!-- Mathematics Tab -->
+    <div id="math" class="tab-content active">
       <div class="section">
-        <h3>Trigonometry</h3>
-        <ul>
-          <li><a href="https://youtu.be/1NLekEd770w?feature=shared" target="_blank">Trigonometry • Math for Game Devs [Part 3] by Freya Holmer</a></li>
-          <li><a href="https://youtu.be/FZ9HWff734c?feature=shared" target="_blank">Trigonometry | Gamedev Math by Natsu Games</a></li>
-          <li><a href="https://youtu.be/XwGOL_2IJ8k?feature=shared" target="_blank">Sin and Cos for Game Dev in 3 minutes | by dotwaffle</a></li>
-          <li><a href="https://youtu.be/-dGi2Ffdiuk?feature=shared" target="_blank">Intro to Game Dev (E22: Trigonometry) by Sebastian Lague</a></li>
-          <li><a href="https://youtu.be/dUkCgTOOpQ0?feature=shared" target="_blank">Trig Visualized: One Diagram by Mathematical Visual Proofs</a></li>
-          <li><a href="https://youtu.be/75dMcyCUo2g?feature=shared" target="_blank">Easiest Way to Memorize Unit Circle by Professor Dave</a></li>
-          <li><a href="https://youtu.be/mhd9FXYdf4s?feature=shared" target="_blank">Don't Memorize! Visualize! by Dennis Davis</a></li>
-        </ul>
+        <h3 class="toggle-header">Trigonometry</h3>
+        <div class="toggle-content">
+          <ul>
+            <li><a href="https://youtu.be/1NLekEd770w" target="_blank">Trigonometry • Math for Game Devs [Part 3] by
+                Freya Holmer</a></li>
+            <li><a href="https://youtu.be/FZ9HWff734c" target="_blank">Trigonometry | Gamedev Math by Natsu Games</a>
+            </li>
+            <li><a href="https://youtu.be/XwGOL_2IJ8k" target="_blank">Sin and Cos for Game Dev in 3 minutes | by
+                dotwaffle</a></li>
+            <li><a href="https://youtu.be/-dGi2Ffdiuk" target="_blank">Intro to Game Dev (E22: Trigonometry) by
+                Sebastian Lague</a></li>
+            <li><a href="https://youtu.be/dUkCgTOOpQ0" target="_blank">Trig Visualized: One Diagram by Mathematical
+                Visual Proofs</a></li>
+            <li><a href="https://youtu.be/75dMcyCUo2g" target="_blank">Easiest Way to Memorize Unit Circle by Professor
+                Dave</a></li>
+            <li><a href="https://youtu.be/mhd9FXYdf4s" target="_blank">Don't Memorize! Visualize! by Dennis Davis</a>
+            </li>
+          </ul>
+        </div>
       </div>
 
       <div class="section">
-        <h3>Linear Algebra</h3>
-        <ul>
-          <li><a href="https://youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab" target="_blank">Essence of Linear Algebra by 3Blue1Brown</a></li>
-          <li><a href="https://www.mathsisfun.com/algebra/vectors.html" target="_blank">Maths is Fun - Vectors</a></li>
-          <li><a href="https://youtu.be/MOYiVLEnhrw?feature=shared" target="_blank">Vectors & Dot Product • Math for Game Devs [Part 1]</a></li>
-          <li><a href="https://www.youtube.com/watch?v=XiwEyopOMqg" target="_blank">Spaces & Cross Product • Math for Game Devs [Part 2]</a></li>
-          <li><a href="https://youtu.be/HgQzOmnBGCo?feature=shared" target="_blank">Matrices & Transformations - by FloatyMonkey</a></li>
-          <li><a href="https://youtu.be/wiYTxjJjfxs?feature=shared" target="_blank">In Video Games, The Player Never Moves by Josh's Channel</a></li>
-        </ul>
+        <h3 class="toggle-header">Linear Algebra</h3>
+        <div class="toggle-content">
+          <ul>
+            <li><a href="https://youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab" target="_blank">Essence
+                of Linear Algebra by 3Blue1Brown</a></li>
+            <li><a href="https://www.mathsisfun.com/algebra/vectors.html" target="_blank">Maths is Fun - Vectors</a>
+            </li>
+            <li><a href="https://youtu.be/MOYiVLEnhrw" target="_blank">Vectors & Dot Product • Math for Game Devs [Part
+                1]</a></li>
+            <li><a href="https://www.youtube.com/watch?v=XiwEyopOMqg" target="_blank">Spaces & Cross Product • Math for
+                Game Devs [Part 2]</a></li>
+            <li><a href="https://youtu.be/HgQzOmnBGCo" target="_blank">Matrices & Transformations - by FloatyMonkey</a>
+            </li>
+            <li><a href="https://youtu.be/wiYTxjJjfxs" target="_blank">In Video Games, The Player Never Moves by Josh's
+                Channel</a></li>
+          </ul>
+        </div>
+
       </div>
 
       <div class="section">
-        <h3>Interpolation</h3>
-        <ul>
-          <li><a href="https://youtu.be/-Ii3MrJFBkQ?feature=shared" target="_blank">Interpolation & Velocity • Math for Game Devs [Part 4]</a></li>
-          <li><a href="https://youtu.be/YJB1QnEmlTs?feature=shared" target="_blank">Lerp, Smoothstep, Shaping Functions by SimonDev</a></li>
-        </ul>
+        <h3 class="toggle-header">Interpolation</h3>
+        <div class="toggle-content">
+          <ul>
+            <li><a href="https://youtu.be/-Ii3MrJFBkQ" target="_blank">Interpolation & Velocity • Math for Game Devs
+                [Part 4]</a></li>
+            <li><a href="https://youtu.be/YJB1QnEmlTs" target="_blank">Lerp, Smoothstep, Shaping Functions by
+                SimonDev</a></li>
+          </ul>
+        </div>
+
       </div>
 
       <div class="section">
-        <h3>Calculus</h3>
-        <ul>
-          <li><a href="https://youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr&feature=shared" target="_blank">Essence of Calculus by 3Blue1Brown</a></li>
-        </ul>
+        <h3 class="toggle-header">Calculus</h3>
+        <div class="toggle-content">
+          <ul>
+            <li><a href="https://youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr" target="_blank">Essence
+                of Calculus by 3Blue1Brown</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
-    <h2 id="physics-header" onclick="toggleSection('physics')">Physics</h2>
-    <div id="physics" class="content">
+    <!-- Physics Tab -->
+    <div id="physics" class="tab-content">
       <div class="section">
-        <h3>Soft Body Dynamics</h3>
-        <ul>
-          <li><a href="https://en.wikipedia.org/wiki/Soft-body_dynamics" target="_blank">Soft-Body Dynamics wikipedia</a></li>
-          <li><a href="https://www.cs.cmu.edu/afs/cs/academic/class/15462-s13/www/lec_slides/Jakobsen.pdf" target="_blank">Advanced Character Physics by Thomas Jakobsen</a></li>
-          <li><a href="https://youtu.be/kyQP4t_wOGI?feature=shared" target="_blank">Soft Body Physics Explained by Gonkee</a></li>
-          <li><a href="https://youtu.be/SIyKD0Qx2Ak?feature=shared" target="_blank">I made Soft Body Physics from Scratch by TheSandwichCoder</a></li>
-          <li><a href="https://youtu.be/3OmkehAJoyo?feature=shared" target="_blank">Physics of JellyCar: Soft Body Physics Explained by Walaber Entertainment</a></li>
-          <li><a href="https://lisyarus.github.io/blog/posts/soft-body-physics.html#section-solids-or-point-masses" target="_blank">Making a 2D soft-body physics engine by lisyarus blog</a></li>
-          <li><a href="https://youtu.be/IxdGyqhppis?feature=shared" target="_blank">Coding Challenge 177: Soft Body Physics by The Coding Train</a></li>
-          <li><a href="https://youtu.be/Rr-5HiXquhw?feature=shared" target="_blank">Coding Challenge 160: Spring Forces by The Coding Train</a></li>
-        </ul>
+        <h3 class="toggle-header">Soft Body Dynamics</h3>
+        <div class="toggle-content">
+          <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Soft-body_dynamics" target="_blank">Soft-Body Dynamics
+                wikipedia</a></li>
+            <li><a href="https://www.cs.cmu.edu/afs/cs/academic/class/15462-s13/www/lec_slides/Jakobsen.pdf"
+                target="_blank">Advanced Character Physics by Thomas Jakobsen</a></li>
+            <li><a href="https://youtu.be/kyQP4t_wOGI" target="_blank">Soft Body Physics Explained by Gonkee</a></li>
+            <li><a href="https://youtu.be/SIyKD0Qx2Ak" target="_blank">I made Soft Body Physics from Scratch by
+                TheSandwichCoder</a></li>
+            <li><a href="https://youtu.be/3OmkehAJoyo" target="_blank">Physics of JellyCar: Soft Body Physics Explained
+                by Walaber Entertainment</a></li>
+            <li><a href="https://lisyarus.github.io/blog/posts/soft-body-physics.html#section-solids-or-point-masses"
+                target="_blank">Making a 2D soft-body physics engine by lisyarus blog</a></li>
+            <li><a href="https://youtu.be/IxdGyqhppis" target="_blank">Coding Challenge 177: Soft Body Physics by The
+                Coding Train</a></li>
+            <li><a href="https://youtu.be/Rr-5HiXquhw" target="_blank">Coding Challenge 160: Spring Forces by The Coding
+                Train</a></li>
+          </ul>
+        </div>
+
       </div>
     </div>
 
-    <h2 id="graphics-header" onclick="toggleSection('graphics')">Graphics</h2>
-    <div id="graphics" class="content">
+    <!-- Graphics Tab -->
+    <div id="graphics" class="tab-content">
       <div class="section">
         <h3>Soon</h3>
-        <ul>
-      
-        </ul>
+        <ul></ul>
+      </div>
+    </div>
+
+    <!-- C++ Programming Tab -->
+    <div id="programming" class="tab-content">
+      <div class="section">
+        <h3>Soon</h3>
+        <ul></ul>
       </div>
     </div>
 
     <div class="bottom-note">
-      If you'd like to contribute to this page or suggest resources, feel free to join the Discord and help make this archive even better!
+      If you'd like to contribute to this page or suggest resources, feel free to join the Discord and help make this
+      archive even better!
     </div>
   </div>
 
   <script>
-    function toggleSection(id) {
-      const content = document.getElementById(id);
-      content.style.display = content.style.display === "none" ? "block" : "none";
+    function openTab(evt, tabId, colorClass) {
+      const tabContents = document.querySelectorAll('.tab-content');
+      const tabButtons = document.querySelectorAll('.tab-button');
+
+      tabContents.forEach(c => c.classList.remove('active'));
+      tabButtons.forEach(b => b.classList.remove('active', 'blue', 'green', 'orange', 'red'));
+
+      document.getElementById(tabId).classList.add('active');
+      evt.currentTarget.classList.add('active', colorClass);
     }
+
+ // Toggle subtopic content
+  document.addEventListener("DOMContentLoaded", () => {
+    const headers = document.querySelectorAll(".toggle-header");
+
+    headers.forEach(header => {
+      header.addEventListener("click", () => {
+        const content = header.nextElementSibling;
+        const isVisible = content.style.display === "block";
+
+        content.style.display = isVisible ? "none" : "block";
+        header.classList.toggle("active", !isVisible);
+      });
+    });
+  });
+
   </script>
 </body>
+
 </html>
