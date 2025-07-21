@@ -1,6 +1,7 @@
+/* Base Styles */
 body {
   margin: 0;
-  padding: 0;
+  padding: 40px 20px;
   background-color: #121212;
   font-family: 'Fira Mono', monospace;
   color: #f0f0f0;
@@ -8,7 +9,6 @@ body {
   justify-content: center;
   align-items: flex-start;
   min-height: 100vh;
-  padding: 40px 20px;
   box-sizing: border-box;
 }
 
@@ -29,6 +29,7 @@ body {
   margin: 0 auto;
 }
 
+/* Icon Bar */
 .icon-bar {
   position: absolute;
   top: 20px;
@@ -44,19 +45,20 @@ body {
   text-decoration: none;
 }
 
+/* Intro Text */
 .intro {
   font-size: 0.95rem;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 30px 0;
   color: #cccccc;
   line-height: 1.6;
 }
 
+/* Tabs */
 .tabs {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   margin-bottom: 20px;
-  flex-wrap: wrap;
 }
 
 .tab-button {
@@ -68,17 +70,20 @@ body {
   border-radius: 6px;
   font-family: 'Fira Mono', monospace;
   transition: background 0.3s, color 0.3s;
+  flex-shrink: 0;
 }
 
 .tab-button:hover {
   background-color: #444;
 }
 
-.tab-button.active.blue { background-color: #3498db; color: #fff; }
-.tab-button.active.green { background-color: #27ae60; color: #fff; }
-.tab-button.active.orange { background-color: #db8534; color: #fff; }
-.tab-button.active.red {background-color:#db3434; color: #fff;}
+/* Active Tab Colors */
+.tab-button.active.blue    { background-color: #3498db; color: #fff; }
+.tab-button.active.green   { background-color: #27ae60; color: #fff; }
+.tab-button.active.orange  { background-color: #db8534; color: #fff; }
+.tab-button.active.red     { background-color: #db3434; color: #fff; }
 
+/* Tab Content */
 .tab-content {
   display: none;
 }
@@ -87,6 +92,7 @@ body {
   display: block;
 }
 
+/* Sections */
 .section {
   margin-bottom: 30px;
 }
@@ -101,20 +107,29 @@ li {
   margin: 8px 0;
 }
 
+/* Link Colors */
 a {
   color: #4aa3ff;
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: underline;
 }
 
+/* Category-specific link colors */
 #physics a {
   color: #27ae60;
-
 }
 
+#graphics a {
+  color: #db8534;
+}
+
+#programming a {
+  color: #db3434;
+}
+
+/* Bottom Note */
 .bottom-note {
   margin-top: 40px;
   font-size: 0.9rem;
@@ -125,6 +140,7 @@ a:hover {
   text-align: center;
 }
 
+/* Collapsible Sections */
 .toggle-content {
   display: none;
   margin-top: 8px;
@@ -146,8 +162,8 @@ a:hover {
   content: "v";
 }
 
-
-@media (max-width: 600px) {
+/* Mobile Responsive */
+@media (max-width: 756px) {
   body {
     padding: 20px 10px;
   }
@@ -158,12 +174,13 @@ a:hover {
 
   .tabs {
     flex-direction: column;
-    align-items: stretch;
+    gap: 8px;
   }
 
   .tab-button {
-    font-size: 1rem;
     width: 100%;
+    font-size: 1rem;
+    text-align: left;
   }
 
   .intro {
@@ -180,5 +197,16 @@ a:hover {
 
   .bottom-note {
     font-size: 0.85rem;
+  }
+
+  .icon-bar {
+    position: static;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+
+  .icon-bar a {
+    font-size: 1.4rem;
   }
 }
