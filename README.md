@@ -15,7 +15,7 @@ This project is for people who enjoy building things from scratch, exploring how
 
 ## About
 
-This archive includes guides, notes, links, and learning materials that I personally use and keep for reference.  
+This archive includes guides, notes, links, and learning materials that we personally use and keep for reference.  
 If you find it helpful too — great! If you have useful resources to share, feel free to:
 
 - Post them in the [Discord server](https://discord.gg/YDnXBnj9kh)
