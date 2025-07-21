@@ -19,7 +19,7 @@ This archive includes guides, notes, links, and learning materials that we perso
 If you find it helpful too — great! If you have useful resources to share, feel free to:
 
 - Post them in the [Discord server](https://discord.gg/YDnXBnj9kh)
-- Or contribute directly to the source code on [GitHub](https://github.com/parven05/Atom)
+- Or contribute directly to the source code on github
 
 Everyone is welcome to help improve and update the site to make it easier for others to use and explore.
 
