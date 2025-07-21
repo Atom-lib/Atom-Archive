@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  font-family: 'Fira Mono', monospace;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: #1e1e1e;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 850px;
+  width: 100%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  position: relative;
+  box-sizing: border-box;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.icon-bar {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.icon-bar a {
+  color: #7289da;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.icon-bar a.website-icon {
+  color: #1abc9c;
+}
+
+.icon-bar a:hover {
+  opacity: 0.8;
+}
+
+.title {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.intro {
+  font-size: 0.95rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #cccccc;
+  line-height: 1.6;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-top: 25px;
+  cursor: pointer;
+  padding-left: 10px;
+  transition: background 0.2s;
+}
+
+#math-header {
+  border-left: 4px solid #3498db;
+  color: #ffffff;
+}
+
+#physics-header {
+  border-left: 4px solid #27ae60;
+  color: #ffffff;
+}
+
+ul {
+  list-style: square;
+  padding-left: 30px;
+  margin-top: 10px;
+}
+
+li {
+  margin: 8px 0;
+}
+
+a {
+  color: #4aa3ff;
+  text-decoration: none;
+}
+
+#physics a {
+  color: #27ae60;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.content {
+  display: none;
+}
+
+.bottom-note {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #bbbbbb;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  line-height: 1.5;
+}
+
+.bottom-note a {
+  color: #7289da;
+  text-decoration: none;
+}
+
+.bottom-note a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 20px 10px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .icon-bar {
+    position: static;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+
+  .icon-bar a {
+    font-size: 1.3rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .intro {
+    font-size: 0.9rem;
+    text-align: justify;
+  }
+
+  h2 {
+    font-size: 1rem;
+    padding-left: 8px;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  li {
+    font-size: 0.9rem;
+  }
+
+  .bottom-note {
+    font-size: 0.85rem;
+    text-align: center;
+  }
+}
