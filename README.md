@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img width="600" height="168" alt="ATOM Archive Banner" src="https://github.com/user-attachments/assets/22ac22a5-6faf-4b50-b51f-df634adc7184" />
+  <img width="600" height="168" alt="ATOM Archive Banner" src="https://github.com/user-attachments/assets/2b80c1ea-f9e0-4602-b843-1c1ab44d9e77" />
 </p>
 
 **Welcome to ATOM — Algorithms, Techniques, Optics, Mechanics**
