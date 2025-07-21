@@ -2,8 +2,6 @@
 
 **Welcome to ATOM — Algorithms, Techniques, Optics, Mechanics**
 
-<img width="512" height="168" alt="atombanner" src="https://github.com/user-attachments/assets/d60e40b9-de1e-414c-ab31-6e80b3dd9098" />
-
 This is a personal and community collection of resources related to programming, graphics, physics, and math.  
 It’s made for people who enjoy building things, breaking them apart, and learning how they really work under the hood.
 
