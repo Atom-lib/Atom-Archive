@@ -86,6 +86,11 @@ h2 {
   color: #ffffff;
 }
 
+#graphics-header {
+  border-left: 4px solid #db8534;
+  color: #ffffff;
+}
+
 ul {
   list-style: square;
   padding-left: 30px;
