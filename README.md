@@ -18,11 +18,11 @@ This project is for people who enjoy building things from scratch, exploring how
 This archive includes guides, notes, links, and learning materials that we personally use and keep for reference.  
 If you find it helpful too — great! If you have useful resources to share, feel free to:
 
-- Post them in the [Discord server](https://discord.gg/YDnXBnj9kh)
+- Post them by joining our [Discord server](https://discord.gg/YDnXBnj9kh)
 - Or contribute directly to the source code on github
 
 Everyone is welcome to help improve and update the site to make it easier for others to use and explore.
 
 ## Visit the Site
 
-[**Atom Archive Website**](https://parven05.github.io/Atom/)
+[**Atom Archive**](https://parven05.github.io/Atom/)
