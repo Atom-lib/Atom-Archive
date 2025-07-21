@@ -3,7 +3,7 @@
       const tabButtons = document.querySelectorAll('.tab-button');
 
       tabContents.forEach(c => c.classList.remove('active'));
-      tabButtons.forEach(b => b.classList.remove('active', 'blue', 'green', 'orange', 'red'));
+      tabButtons.forEach(b => b.classList.remove('active', 'blue', 'green'));
 
       document.getElementById(tabId).classList.add('active');
       evt.currentTarget.classList.add('active', colorClass);

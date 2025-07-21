@@ -39,7 +39,7 @@ body {
 }
 
 .icon-bar a {
-  color: #7289da;
+  color: #ffffff;
   font-size: 1.5rem;
   text-decoration: none;
 }
@@ -113,14 +113,6 @@ a:hover {
 #physics a {
   color: #27ae60;
 
-}
-
-#graphics a {
-  color: #db8534;
-}
-
-#programming a {
-  color: red;
 }
 
 .bottom-note {
