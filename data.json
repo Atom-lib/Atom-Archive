@@ -1,0 +1,70 @@
+{
+  "Mathematics": {
+    "General": {
+      "3D_Math_Primer_for_Graphics_and_Game_Development": "https://www.gamemath.com/book/intro.html",
+      "What_Kind_of_Math_Should_Game_Developers_Know_?_by_SimonDev": "https://youtu.be/eRVRioN4GwA?feature=shared",
+      "Essential_Mathematics_For_Aspiring_Game_Developers_by_Javidx9": "https://youtu.be/DPfxjQ6sqrc?feature=shared",
+      "GDC_-_Maths_for_Game_Programmers": "https://youtube.com/playlist?list=PLVmb_qp6XRcwzN9l5mcia6Gh3HOgut3bH&feature=shared",
+      "Math_for_Game_Developers_by_Jorge_Rodriguez": "https://youtube.com/playlist?list=PLW3Zl3wyJwWOpdhYedlD-yCB7WQoHf-My&feature=shared"
+    },
+    "Trigonometry": {
+      "Trigonometry_by_Freya_Holmer": "https://youtu.be/1NLekEd770w",
+      "Trigonometry_by_Natsu_Games": "https://youtu.be/FZ9HWff734c",
+      "Sin_and_Cos_for_Game_Dev_by_dotwaffle": "https://youtu.be/XwGOL_2IJ8k",
+      "Intro_to_Game_Dev_Trigonometry_by_Sebastian_Lague": "https://youtu.be/-dGi2Ffdiuk",
+      "Trig_Visualized_by_Mathematical_Visual_Proofs": "https://youtu.be/dUkCgTOOpQ0",
+      "Unit_Circle_by_Professor_Dave": "https://youtu.be/75dMcyCUo2g",
+      "Visualize_Trigonometry_by_Dennis_Davis": "https://youtu.be/mhd9FXYdf4s"
+    },
+    "Linear_Algebra": {
+      "Vectors_by_Maths_is_Fun": "https://www.mathsisfun.com/algebra/vectors.html",
+      "Essence_of_Linear_Algebra_by_3Blue1Brown": "https://youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+      "Vectors_and_Dot_Product_by_Freya_Holmer": "https://youtu.be/MOYiVLEnhrw",
+      "Cross_Product_by_Freya_Holmer": "https://www.youtube.com/watch?v=XiwEyopOMqg",
+      "Matrices_and_Transformations_by_FloatyMonkey": "https://youtu.be/HgQzOmnBGCo",
+      "Player_Never_Moves_by_Josh": "https://youtu.be/wiYTxjJjfxs",
+      "Homogeneous_Coordinates_by_Miolith": "https://youtu.be/o-xwmTODTUI"
+    },
+    "Interpolation": {
+      "Interpolation_and_Velocity_by_Freya_Holmer": "https://youtu.be/-Ii3MrJFBkQ",
+      "Lerp_Smoothstep_Shaping_Functions_by_SimonDev": "https://youtu.be/YJB1QnEmlTs"
+    },
+    "Calculus": {
+      "Essence_of_Calculus_by_3Blue1Brown": "https://youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr"
+    }
+  },
+  "Physics": {
+    "General": {},
+    "Soft_Body_Dynamics": {
+      "Wikipedia_Soft_Body_Dynamics": "https://en.wikipedia.org/wiki/Soft-body_dynamics",
+      "2D_Soft_Body_Engine_by_Lisyarus": "https://lisyarus.github.io/blog/posts/soft-body-physics.html#section-solids-or-point-masses",
+      "Advanced_Character_Physics_by_Jakobsen": "https://www.cs.cmu.edu/afs/cs/academic/class/15462-s13/www/lec_slides/Jakobsen.pdf",
+      "Soft_Body_Explained_by_Gonkee": "https://youtu.be/kyQP4t_wOGI",
+      "Soft_Body_From_Scratch_by_TheSandwichCode": "https://youtu.be/SIyKD0Qx2Ak",
+      "Physics_of_JellyCar_by_Walaber": "https://youtu.be/3OmkehAJoyo",
+      "Soft_Body_Challenge_by_Coding_Train": "https://youtu.be/IxdGyqhppis",
+      "Spring_Forces_by_Coding_Train": "https://youtu.be/Rr-5HiXquhw"
+    }
+  },
+  "Graphics": {
+    "General": {
+      "The_Book_of_Shaders": "https://thebookofshaders.com",
+      "GPU_Gems_by_Nvidia": "https://developer.nvidia.com/gpugems/gpugems/contributors"
+    },
+    "Graphics_API": {
+      "Learn_OpenGL": "https://learnopengl.com/",
+      "Vulkan_Tutorial": "https://vulkan-tutorial.com/",
+      "Vulkan_Game_Engine_Tutorials": "https://youtube.com/playlist?list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR&si=vjSqodeRfdhYMYq6"
+    },
+    "Ray_Tracing": {
+      "Ray_Tracing_Wikipedia": "https://en.wikipedia.org/wiki/Ray_tracing_(graphics)",
+      "Ray_Tracing_in_One_Weekend": "https://raytracing.github.io/",
+      "2D_Raycasting_by_Coding_Train": "https://youtu.be/TOEi6T2mtHo?si=XucmTuimJavj27Li",
+      "Rendering_Raycasting_by_Coding_Train": "https://youtu.be/vYgIKn7iDH8?si=C_oHHz5mYj7GAcIg",
+      "Ray_Tracing_by_The_Cherno": "https://youtube.com/playlist?list=PLlrATfBNZ98edc5GshdBtREv5asFW3yXl&si=x_b-3ek4EAsbooZY"
+    }
+  },
+  "Algorithm":{
+
+  }
+}
