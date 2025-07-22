@@ -54,7 +54,8 @@
     "Graphics_API": {
       "Learn_OpenGL": "https://learnopengl.com/",
       "Vulkan_Tutorial": "https://vulkan-tutorial.com/",
-      "Vulkan_Game_Engine_Tutorials": "https://youtube.com/playlist?list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR&si=vjSqodeRfdhYMYq6"
+      "Vulkan_Game_Engine_Tutorials": "https://youtube.com/playlist?list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR&si=vjSqodeRfdhYMYq6",
+      "A Quick Overview of Vulkan Components by GetIntoGameDev": "https://youtu.be/2NVlG9TFT1c?feature=shared"
     },
     "Ray_Tracing": {
       "Ray_Tracing_Wikipedia": "https://en.wikipedia.org/wiki/Ray_tracing_(graphics)",
@@ -64,7 +65,11 @@
       "Ray_Tracing_by_The_Cherno": "https://youtube.com/playlist?list=PLlrATfBNZ98edc5GshdBtREv5asFW3yXl&si=x_b-3ek4EAsbooZY"
     }
   },
-  "Architecture":{
+
+  "Architecutre": {
+    "Engine Component System": {
+      "Unreal vs. Unity: Actors & Components, Inheritance & Composition by Alex Forsythe": "https://youtu.be/iQ3c-lrHO7o?feature=shared"
+    }
 
   }
 }
