@@ -75,7 +75,7 @@ body {
 }
 
 .tab-button:hover {
-  background-color: #444 !important;
+  background-color: #444 ;
 }
 
 /* Active Tab Colors */

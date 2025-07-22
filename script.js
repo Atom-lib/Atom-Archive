@@ -5,7 +5,7 @@
       tabContents.forEach(c => c.classList.remove('active'));
       tabButtons.forEach(b => {
 	      b.className = 'tab-button';
-	      b.style.backgroundColor = "#2c2c2c";
+	      b.style.backgroundColor = "";
       });
       document.getElementById(tabId).classList.add('active');
       evt.currentTarget.classList.add('active');

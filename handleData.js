@@ -37,10 +37,11 @@ class Card{
 		a.href = href;
 		a.textContent = title.replace(/_/g, " ")+" ";
 		a.target = "_blank";
+		a.style.color = this.color;	
 		for (const icon in Card.Icons){
 			if(href.includes(icon)){
 				i.className = Card.Icons[icon];
-				break
+				break;
 			}
 		}
 		li.appendChild(a);
