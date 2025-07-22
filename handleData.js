@@ -1,6 +1,5 @@
 const Cards = document.getElementsByClassName("card")[0];
 class Card{
-	static titles = [];
 	static colors = ["#3498db", "#27ae60", "#db8534", "#db3434"];
 	static i = 0;
 	static Icons = {
@@ -11,14 +10,13 @@ class Card{
 	}
    	static Default = true;
 	constructor(title){
-		Card.titles.push(title);
 		this.category = document.createElement("div");
 		this.category.className = "tab-content";
 		this.category.id = title.replace(/_/g," ");
 		this.color = Card.colors[Card.i];
 		Cards.appendChild(this.category);
 		const button = document.createElement("button");
-		button.onclick = ()=>openTab(event, title,this.color||"pink");
+		button.onclick = ()=>openTab(event, title,this.color||"pink");// default color is pink if color is undefined.
 		document.getElementsByClassName("tabs")[0].appendChild(button);
 		button.textContent = title;
 		button.className = "tab-button ";
@@ -27,15 +25,15 @@ class Card{
 			button.click();
 			Card.Default = false;
 		}
-		console.log(Card.i);
 	}
+	//Creates ul>li for each link
 	Ul(title,href){
 		const li = document.createElement("li");
 		const a = document.createElement("a");
 		const i = document.createElement("i");
 		this.ul.appendChild(li);
 		a.href = href;
-		a.textContent = title.replace(/_/g, " ")+" ";
+		a.textContent = title.replace(/_/g, " ")+" ";//replaces _ with spaces
 		a.target = "_blank";
 		a.style.color = this.color;	
 		for (const icon in Card.Icons){
@@ -48,6 +46,7 @@ class Card{
 		a.appendChild(i);
 		
 	}
+	// Create Sub Category
 	subCategory(title){
 		this.ul= document.createElement("ul");
 		const div= document.createElement("div");
@@ -57,7 +56,7 @@ class Card{
 		if(title != "General"){
 			section.appendChild(h3);
 			div.className = "toggle-content";
-			h3.textContent=title.replace(/_/g, " ");
+			h3.textContent=title.replace(/_/g, " ");// replaces _ with spaces
 			h3.className = "toggle-header";
 		}else
 			this.ul.className = "general-links";
@@ -74,10 +73,7 @@ class Card{
 	}
 }
 
-let categorys = [];
-function Manage_HTML_Tags(){
-	
-}
+// fetches data form data.json	
 async function Handle_Data(){
 	const response = await fetch('data.json');
       	const data = await response.json();
@@ -95,4 +91,3 @@ async function Handle_Data(){
 	}
 }
 Handle_Data();
-console.log("Handle.js")
