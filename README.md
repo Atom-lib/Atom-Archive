@@ -31,7 +31,14 @@ git clone https://github.com/atom-lib/Atom-Archive.git
 ### 2. Open the Project and Find `data.json`
 - The `data.json` file is in the root folder.
 - It holds all resources, organized by categories like Mathematics, Physics and Graphics
-- Each category has topics like General, Shaders, Trigonometry, and more.
+```
+- Main Category (e.g., Mathematics, Physics, Graphics, C++)
+  ├── General
+  │   └── Resource_Title: Resource_Link
+  ├── Section (e.g., Trigonometry, Shaders, Ray Tracing)
+  │   └── Resource_Title: Resource_Link
+  └── More Sections...
+```
 
 ### 3. Add a New Resource
 
