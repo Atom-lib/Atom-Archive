@@ -59,25 +59,17 @@
       "Getting Started With Compute Shaders In Unity": "https://kylehalladay.com/blog/tutorial/2014/06/27/Compute-Shaders-Are-Nifty.html",
       "Computer Shaders by Ronja's Tutorials": "https://www.ronja-tutorials.com/post/050-compute-shader/"
     },
-    "Graphics Concepts": {
-      "HLSL Constant Buffer Layout Visualizer": "https://maraneshi.github.io/HLSL-ConstantBufferLayoutVisualizer/",
-      "My Favorite Tools + Techniques for Procedural Gamedev": "https://cprimozic.net/blog/tools-and-techniques-for-procedural-gamedev/#lod-terrain",
-      "To Early-Z, or Not To Early-Z": "https://therealmjp.github.io/posts/to-earlyz-or-not-to-earlyz/"
-    },
     "Ray_Tracing": {
       "Ray_Tracing_Wikipedia": "https://en.wikipedia.org/wiki/Ray_tracing_(graphics)",
       "Ray_Tracing_in_One_Weekend": "https://raytracing.github.io/",
       "2D_Raycasting_by_Coding_Train": "https://youtu.be/TOEi6T2mtHo?si=XucmTuimJavj27Li",
       "Rendering_Raycasting_by_Coding_Train": "https://youtu.be/vYgIKn7iDH8?si=C_oHHz5mYj7GAcIg",
       "Ray_Tracing_by_The_Cherno": "https://youtube.com/playlist?list=PLlrATfBNZ98edc5GshdBtREv5asFW3yXl&si=x_b-3ek4EAsbooZY"
-    }
-  },
-  "Architecutre": {
-    "Component System": {
-      "Unreal vs. Unity: Actors & Components, Inheritance & Composition by Alex Forsythe": "https://youtu.be/iQ3c-lrHO7o?feature=shared"
     },
-    "System Optimization": {
-      "Software optimization resources": "https://www.agner.org/optimize/"
+    "Others": {
+      "HLSL Constant Buffer Layout Visualizer": "https://maraneshi.github.io/HLSL-ConstantBufferLayoutVisualizer/",
+      "To Early-Z, or Not To Early-Z": "https://therealmjp.github.io/posts/to-earlyz-or-not-to-earlyz/",
+       "My Favorite Tools + Techniques for Procedural Gamedev": "https://cprimozic.net/blog/tools-and-techniques-for-procedural-gamedev/#lod-terrain"
     }
   }
 }
