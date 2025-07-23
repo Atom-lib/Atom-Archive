@@ -8,7 +8,7 @@
   <img width="600" height="168" alt="ATOM Archive Banner" src="https://github.com/user-attachments/assets/2b80c1ea-f9e0-4602-b843-1c1ab44d9e77" />
 </p>
 
-**Welcome to ATOM — Algorithms, Techniques, Optics, Mechanics**
+## **Welcome to ATOM — Algorithms, Techniques, Optics, Mechanics**
 
 A personal and community-driven archive of resources for programming, graphics, physics, and math.  
 This project is for people who enjoy building things from scratch, exploring how systems work under the hood, and sharing what they learn.
@@ -32,7 +32,7 @@ git clone https://github.com/atom-lib/Atom-Archive.git
 - The `data.json` file is in the root folder.
 - It holds all resources, organized by categories like Mathematics, Physics and Graphics
 ```
-- Main Category (e.g., Mathematics, Physics, Graphics, C++)
+Main Category (e.g., Mathematics, Physics, Graphics, C++)
   ├── General
   │   └── Resource_Title: Resource_Link
   ├── Section (e.g., Trigonometry, Shaders, Ray Tracing)
