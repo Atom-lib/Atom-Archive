@@ -48,6 +48,7 @@
   },
   "Graphics": {
     "General": {
+      "Graphics Developer Roadmap (Mega Thread) - Recommended": "https://github.com/prographon/graphics-developer-roadmap",
       "GPU_Gems_by_Nvidia": "https://developer.nvidia.com/gpugems/gpugems/contributors",
       "What Is A Graphics Programmer ? by Acerola": "https://youtu.be/O-2viBhLTqI?feature=shared",
       "Graphics Programming Conference 2024": "https://youtube.com/playlist?list=PLLaly9x9rqjsXLW1tMFruyh_657sh8epk&feature=shared"
@@ -63,18 +64,6 @@
       "HLSL Constant Buffer Layout Visualizer": "https://maraneshi.github.io/HLSL-ConstantBufferLayoutVisualizer/",
       "My Favorite Tools + Techniques for Procedural Gamedev": "https://cprimozic.net/blog/tools-and-techniques-for-procedural-gamedev/#lod-terrain",
       "To Early-Z, or Not To Early-Z": "https://therealmjp.github.io/posts/to-earlyz-or-not-to-earlyz/"
-    },
-    "Graphics_API": {
-      "Learn_OpenGL": "https://learnopengl.com/",
-      "Vulkan_Tutorial": "https://vulkan-tutorial.com/",
-      "Vulkan Guide": "https://vkguide.dev/",
-      "Vulkan OpenSoure C++ Samples": "https://github.com/SaschaWillems/Vulkan?tab=readme-ov-file",
-      "Vulkan_Game_Engine_Tutorials": "https://youtube.com/playlist?list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR&si=vjSqodeRfdhYMYq6",
-      "A Quick Overview of Vulkan Components by GetIntoGameDev": "https://youtu.be/2NVlG9TFT1c?feature=shared",
-      "Vulkan Game Engine Series Written in C by Travis Vroman": "https://youtube.com/playlist?list=PLv8Ddw9K0JPg1BEO-RS-0MYs423cvLVtj&feature=shared"
-    },
-    "Particle_System": {
-      "Ex-Blizzard Dev Writes A Particle System From Scratch by Never Engine Studios": "https://www.youtube.com/watch?v=ahOfNgvQ93Q"
     },
     "Ray_Tracing": {
       "Ray_Tracing_Wikipedia": "https://en.wikipedia.org/wiki/Ray_tracing_(graphics)",
