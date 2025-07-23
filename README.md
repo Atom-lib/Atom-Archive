@@ -16,13 +16,51 @@ This project is for people who enjoy building things from scratch, exploring how
 ## About
 
 This archive includes guides, notes, links, and learning materials that we personally use and keep for reference.  
-If you find it helpful too — great! If you have useful resources to share, feel free to:
+If you find it helpful too — great! If you have useful resources to share, feel free to join our [Discord server](https://discord.gg/YDnXBnj9kh)
 
-- Post them by joining our [Discord server](https://discord.gg/YDnXBnj9kh)
-- Or contribute directly to the source code on github
+## How to Contribute
 
-Everyone is welcome to help improve and update the site to make it easier for others to use and explore.
+### 1. Clone the Repository
 
-## Visit the Site
+Open a terminal and run:
 
-[**Atom Archive**](https://parven05.github.io/Atom/)
+```bash
+git clone https://github.com/atom-lib/Atom-Archive.git
+```
+
+### 2. Open the Project and Find `data.json`
+- The `data.json` file is in the root folder.
+- It holds all resources, organized by categories like Mathematics, Physics and Graphics
+- Each category has topics like General, Shaders, Trigonometry, and more.
+
+### 3. Add a New Resource
+
+Here's and example of how a section is structured:
+```json
+"Mathematics": {
+  "General": {
+    "3D_Math_Primer_for_Graphics_and_Game_Development": "https://www.gamemath.com/book/intro.html",
+    "What_Kind_of_Math_Should_Game_Developers_Know_?_by_SimonDev": "https://youtu.be/eRVRioN4GwA"
+  }
+}
+```
+To add your own :
+
+| Rule                         | Description                                                                 |
+|------------------------------|-----------------------------------------------------------------------------|
+| **Use snake_case**           | Write titles using snake_case. Example: `"My_New_Math_Guide"`              |
+| **Correct section**          | Place the resource inside the correct topic block (e.g. `General`, `Shaders`) |
+| **Valid URL**                | Make sure the link is valid and points to the actual resource              |
+| **Add new sections if needed** | You can create a new topic block if it doesn’t already exist             |
+| **YouTube videos**           | For YouTube links, include the author/channel in the title. Example: `"Intro_to_Shaders_by_Freya_Holmer"` |
+
+
+### 4. Submit Changes
+
+Once you've added your resources:
+
+- Save the `data.json` file
+- Commit your changes with a clear message
+- Open a pull request on GitHub
+
+Your contribution will be reviewed and merged if everything is in order.
