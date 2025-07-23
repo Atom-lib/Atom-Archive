@@ -143,8 +143,15 @@ a:hover {
 .toggle-header {
   cursor: pointer;
   user-select: none;
+   -webkit-tap-highlight-color: transparent; /* Removes blue/gray highlight on iOS */
+  -webkit-focus-ring-color: transparent;    /* Removes blue glow on Android/Chrome */
+  tap-highlight-color: transparent;
 }
 
+.toggle-header:focus{
+	background: none;
+	outline: none;
+}
 .toggle-header::before {
   content: ">";
   padding-right: 10px;

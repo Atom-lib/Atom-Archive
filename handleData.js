@@ -1,4 +1,6 @@
 const Cards = document.getElementsByClassName("card")[0];
+
+
 class Card{
 	static colors = ["#3498db", "#27ae60", "#db8534", "#db3434"];
 	static i = 0;
@@ -13,10 +15,10 @@ class Card{
 		this.category = document.createElement("div");
 		this.category.className = "tab-content";
 		this.category.id = title.replace(/_/g," ");
-		this.color = Card.colors[Card.i];
+	        this.color = Card.colors[Card.i]; 
 		Cards.appendChild(this.category);
 		const button = document.createElement("button");
-		button.onclick = ()=>openTab(event, title,this.color||"pink");// default color is pink if color is undefined.
+		button.onclick = event=>openTab(event, title,this.color||"pink");// default color is pink if color is undefined.
 		document.getElementsByClassName("tabs")[0].appendChild(button);
 		button.textContent = title;
 		button.className = "tab-button ";
