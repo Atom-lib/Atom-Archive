@@ -43,8 +43,8 @@ Here's and example of how a section is structured:
     "What_Kind_of_Math_Should_Game_Developers_Know_?_by_SimonDev": "https://youtu.be/eRVRioN4GwA?feature=shared" // YouTube video
   },
   "Trigonometry": { // Trigonometry section
-    "Trigonometry_by_Freya_Holmer": "https://youtu.be/1NLekEd770w", // Youtube Video
-    "Trigonometry_by_Natsu_Games": "https://youtu.be/FZ9HWff734c" // Youtube Video
+    "Trigonometry_by_Freya_Holmer": "https://youtu.be/1NLekEd770w", // Youtube video
+    "Trigonometry_by_Natsu_Games": "https://youtu.be/FZ9HWff734c" // Youtube video
   }
 }
 
