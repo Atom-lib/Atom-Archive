@@ -37,23 +37,27 @@ git clone https://github.com/atom-lib/Atom-Archive.git
 
 Here's and example of how a section is structured:
 ```json
-"Mathematics": {
-  "General": {
-    "3D_Math_Primer_for_Graphics_and_Game_Development": "https://www.gamemath.com/book/intro.html",
-    "What_Kind_of_Math_Should_Game_Developers_Know_?_by_SimonDev": "https://youtu.be/eRVRioN4GwA"
+"Mathematics": { // Main category
+  "General": { // General section
+    "3D_Math_Primer_for_Graphics_and_Game_Development": "https://www.gamemath.com/book/intro.html", // Online book
+    "What_Kind_of_Math_Should_Game_Developers_Know_?_by_SimonDev": "https://youtu.be/eRVRioN4GwA?feature=shared" // YouTube video
+  },
+  "Trigonometry": { // Trigonometry section
+    "Trigonometry_by_Freya_Holmer": "https://youtu.be/1NLekEd770w", // Youtube Video
+    "Trigonometry_by_Natsu_Games": "https://youtu.be/FZ9HWff734c" // Youtube Video
   }
 }
+
 ```
 To add your own :
 
-| Rule                         | Description                                                                 |
-|------------------------------|-----------------------------------------------------------------------------|
-| **Use snake_case**           | Write titles using snake_case. Example: `"My_New_Math_Guide"`              |
-| **Correct section**          | Place the resource inside the correct topic block (e.g. `General`, `Shaders`) |
-| **Valid URL**                | Make sure the link is valid and points to the actual resource              |
-| **Add new sections if needed** | You can create a new topic block if it doesn’t already exist             |
-| **YouTube videos**           | For YouTube links, include the author/channel in the title. Example: `"Intro_to_Shaders_by_Freya_Holmer"` |
-
+| Rule                          | Description                                                                 |
+|-------------------------------|-----------------------------------------------------------------------------|
+| **Use snake_case**            | Use snake_case formatting for titles. Example: `"My_New_Math_Guide"`        |
+| **Place in correct section**  | Add the resource under the appropriate topic (e.g., `General`, `Shaders`)   |
+| **Use valid URLs**            | Ensure the link is working and points to the correct resource               |
+| **Add new sections if needed**| You may create a new topic block if it doesn't already exist                |
+| **YouTube videos**            | Include the author's name in the title. Example: `"Intro_to_Shaders_by_Freya_Holmer"` |
 
 ### 4. Submit Changes
 
