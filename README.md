@@ -4,7 +4,6 @@
   <img src="https://badgen.net/badge/license/GNU-Public/green" />
 </p>
 
-
 <p align="center">
   <img width="600" height="168" alt="ATOM Archive Banner" src="https://github.com/user-attachments/assets/2b80c1ea-f9e0-4602-b843-1c1ab44d9e77" />
 </p>
